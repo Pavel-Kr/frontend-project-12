@@ -54,13 +54,14 @@ export default [
           allow: ['__filename', '__dirname'],
         },
       ],
-      'import/extensions': [
-        'error',
+      'import/extensions': 0,
+      'import/no-extraneous-dependencies': 'off',
+      'react/jsx-filename-extension': [
+        1,
         {
-          jsx: 'always',
+          extensions: ['.js', '.jsx'],
         },
       ],
-      'import/no-extraneous-dependencies': 'off',
     },
   },
 ];

@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "http://localhost:5001",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,12 +11,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.4.0",
+    "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "formik": "^2.4.6",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.6",
     "react-dom": "^18.3.1",
-    "react-router": "^7.0.1"
+    "react-redux": "^9.1.2",
+    "react-router": "^7.0.1",
+    "yup": "^1.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
